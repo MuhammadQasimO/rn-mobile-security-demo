@@ -1,0 +1,30 @@
+{
+  "name": "rn-mobile-security-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-native": "0.75.4",
+    "crypto-js": "^4.2.0",
+    "react-native-keychain": "^8.2.0",
+    "react-native-ssl-pinning": "^1.5.7"
+  },
+  "devDependencies": {
+    "@react-native/babel-preset": "0.75.4",
+    "@react-native/metro-config": "0.75.4",
+    "@react-native/typescript-config": "0.75.4",
+    "@types/crypto-js": "^4.2.2",
+    "@types/react": "^18.2.6",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
