@@ -1,0 +1,10 @@
+services:
+  server:
+    build: ./server
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      HMAC_SECRET: "${HMAC_SECRET:-dev-secret-do-not-use-in-prod}"
+      SIGNATURE_WINDOW_MS: "60000"
+    restart: unless-stopped
