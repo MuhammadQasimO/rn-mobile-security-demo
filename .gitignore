@@ -55,3 +55,16 @@ mobile/android/app/release/
 # Coverage
 coverage/
 *.lcov
+
+# Local secrets and dev artifacts
+*.local.json
+!.claude/settings.local.json
+*.pem
+*.p12
+*.mobileprovision
+
+# Compiled native artifacts
+*.o
+*.a
+*.so
+*.dylib
