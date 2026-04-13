@@ -58,7 +58,6 @@ coverage/
 
 # Local secrets and dev artifacts
 *.local.json
-!.claude/settings.local.json
 *.pem
 *.p12
 *.mobileprovision
@@ -68,3 +67,6 @@ coverage/
 *.a
 *.so
 *.dylib
+
+# Claude
+.claude/
